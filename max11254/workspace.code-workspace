@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "max11254",
+			"path": "."
+		},
+		{
+			"path": "..\\cube"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"main.h": "c"
+		}
+	}
+}

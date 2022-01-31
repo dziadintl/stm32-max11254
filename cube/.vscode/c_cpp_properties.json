@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/../cube/Core/Inc/",
+                "C:/Users/leonek/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/lib/gcc/arm-none-eabi/7.2.1/include",
+                "${workspaceFolder}/Drivers/STM32F3xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F3xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Core/Include",
+                "C:/Users/leonek/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/arm-none-eabi/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "PLATFORMIO=50205",
+                "STM32F3",
+                "STM32F303xC",
+                "PIO_FRAMEWORK_ARDUINO_NANOLIB_FLOAT_PRINTF",
+                "USE_HAL_DRIVER",
+                "F_CPU=72000000L"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
